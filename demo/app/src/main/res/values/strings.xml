@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Demo</string>
+
+    <string name="fb_app_id">381344499131976</string>
+    <string name="account_kit_client_token">fb1076fc597d13ce8c5f28ef1ac33ede</string>
+    <string name="ak_login_protocol_scheme">akfb1076fc597d13ce8c5f28ef1ac33ede</string>
+</resources>

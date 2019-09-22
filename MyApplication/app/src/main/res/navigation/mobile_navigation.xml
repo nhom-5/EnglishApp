@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.myapplication.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_minitest"
+        android:name="com.example.myapplication.ui.minitest.MinitestFragment"
+        android:label="@string/menu_minitest"
+        tools:layout="@layout/fragment_minitest" />
+
+    <fragment
+        android:id="@+id/nav_fulltest"
+        android:name="com.example.myapplication.ui.fulltest.FulltestFragment"
+        android:label="@string/menu_fulltest"
+        tools:layout="@layout/fragment_fulltest" />
+
+    <fragment
+        android:id="@+id/nav_tools"
+        android:name="com.example.myapplication.ui.tools.ToolsFragment"
+        android:label="@string/menu_tools"
+        tools:layout="@layout/fragment_tools" />
+
+    <fragment
+        android:id="@+id/nav_share"
+        android:name="com.example.myapplication.ui.share.ShareFragment"
+        android:label="@string/menu_share"
+        tools:layout="@layout/fragment_share" />
+
+    <fragment
+        android:id="@+id/nav_rate"
+        android:name="com.example.myapplication.ui.rate.RateFragment"
+        android:label="@string/menu_rate"
+        tools:layout="@layout/fragment_rate" />
+    <fragment
+        android:id="@+id/nav_send"
+        android:name="com.example.myapplication.ui.send.SendFragment"
+        android:label="@string/menu_send"
+        tools:layout="@layout/fragment_send" />
+    <fragment
+        android:id="@+id/nav_info"
+        android:name="com.example.myapplication.ui.info.InfoFragment"
+        android:label="@string/menu_info"
+        tools:layout="@layout/fragment_info" />
+</navigation>
